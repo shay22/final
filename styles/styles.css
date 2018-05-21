@@ -1,0 +1,181 @@
+body {
+	margin: 15px;
+	background-color: #333366;
+	margin: 0;
+}
+
+header {
+	background-color: #66CCFF;
+}
+
+footer {
+	/*position: fixed;*/
+	width: 100%;
+	background-color: #333333;
+	text-align: left;
+	right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 5px;
+}
+
+h1 {
+	font-family: Lato;
+	font-size: 50px;
+	padding-top: 40px;
+	color: #666666;
+}
+
+h3 {
+	font-family: Lato;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	text-align: center;
+}
+
+h4 {
+	font-family: Nunito;
+	font-size: 27px;
+	color: #66CCFF;
+	text-decoration: underline;
+}
+
+p { 
+font-family: Roboto;
+	font-size: 18px;
+	padding: 50px 90px 5px 50px;
+	color: white;
+	text-align: center;
+}
+
+ul { 
+ font-family: Roboto;
+	font-size: 18px;
+	padding: 50px 90px 90px 50px;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding: 15px;
+}
+
+li a:hover {
+  font-size: 30px;
+  color: #66CCFF;
+}
+
+
+h1, h4, p {
+	text-align: center;
+}
+
+
+
+
+.one, .two, .three, .four {
+	padding: 30px;
+}
+
+.flex-container {
+  display: inline-flex;
+}
+
+.btn {
+    background-color: #66CCFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+.dic, .bru, .n, .f, .w, .lin, .ma {
+    color: black;
+}
+
+.dic:hover, .bru:hover, .n:hover, .f:hover, .w:hover, .lin:hover, .ma:hover {
+    background: #2196F3;
+    color: white;
+}
+
+
+
+
+
+/*CSS ANIMATION. ADAPTED FROM https://codepen.io/team/css-tricks/pen/c6d27fda8e1244d44bf04728049d7c1d */
+.element {
+  height: 70px;
+  width: 70px;
+  background-color: #7D0552;
+  animation: 
+    pulse 1s ease infinite alternate, 
+    nudge 7s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #4B0082;
+  }
+  50% {
+    background-color: #0041C2;
+	opacity: 0.5;
+  }
+  
+  90% {
+	  background-color: #C12283;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(250px, 0);
+	 }
+  
+  50% {
+    transform: translate(550px, 0);
+  }
+  
+  80% {
+    transform: translate(600px, 0);
+  }
+}
+/*END OF CSS ANIMATION*/
+
+nav {
+	text-align: center;
+    margin: 60px;
+    
+}
+
+a {
+	padding: 20px;
+}
+
+a:link {
+    color: #6666CC;
+	font-size: 20px;
+	font-family: Roboto;
+	text-decoration: none;
+}
+a:hover {
+		color: white;
+		font-family: Roboto;
+		text-transform: uppercase;
+		text-decoration: none;		
+}
+
+a:visited {
+    color: #9933CC;
+}
+
